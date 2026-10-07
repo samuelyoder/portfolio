@@ -27,10 +27,10 @@ const skills = [
     { name: "Docker",                 level: 3, category: "systems" },
     { name: "WSL2",                   level: 5, category: "systems" },
     // AI / ML
-    { name: "PyTorch / Transformers", level: 4, category: "ai / ml" },
-    { name: "XGBoost / Scikit-learn", level: 3, category: "ai / ml" },
-    { name: "CNNs",                   level: 4, category: "ai / ml" },
-    { name: "NLP / BERT",             level: 3, category: "ai / ml" },
+    { name: "PyTorch / Transformers", level: 4, category: "AI / ML" },
+    { name: "XGBoost / Scikit-learn", level: 3, category: "AI / ML" },
+    { name: "CNNs",                   level: 4, category: "AI / ML" },
+    { name: "NLP / BERT",             level: 3, category: "AI / ML" },
     // Web / Tools
     { name: "Flask",                  level: 4, category: "web / tools" },
     { name: "Elasticsearch / Kibana", level: 4, category: "web / tools" },
@@ -38,7 +38,7 @@ const skills = [
     { name: "HTML / CSS",             level: 4, category: "web / tools" },
 ];
 
-const categories = ["all", "security", "languages", "systems", "ai / ml", "web / tools"];
+const categories = ["all", "security", "languages", "systems", "AI / ML", "web / tools"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("security");
