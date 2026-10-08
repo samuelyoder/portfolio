@@ -4,7 +4,7 @@ const projects = [
     {
         id: 1,
         title: "Open-Source Vulnerability Research & Fuzzing",
-        description: "Built a coverage-guided fuzzing harness in C++ targeting stable-diffusion.cpp's GGUF model-file parser. Discovered an uncontrolled-allocation vulnerability (CWE-789) — a 32-byte crafted file crashes any application loading attacker-controlled models. Root-caused to two unvalidated length fields, confirmed unreported via OSV/GHSA review, and filed a private coordinated-disclosure advisory with the maintainer.",
+        description: "Built a coverage-guided libFuzzer harness, instrumented with AddressSanitizer and UndefinedBehaviorSanitizer, for the model-file parser of an open-source C++ machine-learning inference library. The campaign found a previously unreported memory-safety bug, which I triaged to root cause and reported to the maintainer through a private coordinated-disclosure advisory. Full details will follow once a fix is released.",
         image: `${import.meta.env.BASE_URL}projects/fuzzing.png`,
         tags: ["C++", "libFuzzer", "ASan/UBSan", "GDB", "Vulnerability Research"],
         status: "pending",
