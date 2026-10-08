@@ -17,7 +17,7 @@ const projects = [
         image: `${import.meta.env.BASE_URL}projects/soclab.png`,
         tags: ["Elasticsearch", "Kibana", "Sigma", "MITRE ATT&CK", "Detection Engineering"],
         status: "live",
-        githubUrl: "https://github.com/DreadPirateSamuel/Sigma-Detection-Lab",
+        githubUrl: "https://github.com/samuelyoder/Sigma-Detection-Lab",
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const projects = [
         image: `${import.meta.env.BASE_URL}projects/five.png`,
         tags: ["Python", "XGBoost", "Streamlit", "Machine Learning", "Network Security"],
         status: "live",
-        githubUrl: "https://github.com/DreadPirateSamuel/Malware-Traffic-Classifier",
+        githubUrl: "https://github.com/samuelyoder/Malware-Traffic-Classifier",
     },
     {
         id: 4,
@@ -44,7 +44,7 @@ const projects = [
         image: `${import.meta.env.BASE_URL}projects/two.png`,
         tags: ["Python", "Flask", "SQLite", "Web Security", "Authentication"],
         status: "live",
-        githubUrl: "https://github.com/DreadPirateSamuel/eCommerce-Website-Project",
+        githubUrl: "https://github.com/samuelyoder/eCommerce-Website-Project",
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ const projects = [
         image: `${import.meta.env.BASE_URL}projects/one.png`,
         tags: ["Python", "TensorFlow", "CNNs", "Deep Learning", "Data Science"],
         status: "live",
-        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication",
+        githubUrl: "https://github.com/samuelyoder/Deep-TAO-Replication",
     },
 ];
 
@@ -142,7 +142,7 @@ export const ProjectsSection = () => {
                     className="cosmic-button w-fit flex items-center mx-auto gap-2"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/DreadPirateSamuel"
+                    href="https://github.com/samuelyoder"
                 >
                     Check Out My GitHub <ArrowRight size={16} />
                 </a>
