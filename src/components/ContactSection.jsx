@@ -40,7 +40,7 @@ export const ContactSection = () => {
                         <a href="https://www.linkedin.com/in/samueldyoder" target="_blank" rel="noopener noreferrer">
                             <img src="images/linkedin-logo.png" alt="LinkedIn" className="social-icon w-8 h-8 card-hover" />
                         </a>
-                        <a href="https://github.com/DreadPirateSamuel" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/samuelyoder" target="_blank" rel="noopener noreferrer">
                             <img src="images/github-logo.png" alt="GitHub" className="social-icon w-8 h-8 card-hover" />
                         </a>
                     </div>
