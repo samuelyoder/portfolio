@@ -35,7 +35,7 @@ const projects = [
         image: `${import.meta.env.BASE_URL}projects/kernel.png`,
         tags: ["C", "Linux", "Systems Programming", "Kernel Development", "Concurrency"],
         status: "live",
-        githubUrl: null,
+        githubUrl: "https://github.com/samuelyoder/linux-kernel-elevator",
     },
     {
         id: 5,
