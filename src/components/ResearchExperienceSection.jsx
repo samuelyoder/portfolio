@@ -28,11 +28,12 @@ export const ResearchExperienceSection = () => {
                                     OSIRIS Lab, NYU Tandon | Oct 2026 – Present
                                 </p>
                                 <p className="text-muted-foreground mt-3">
-                                    Contribute to the AWS-backed CSAW CTF environment
-                                    through Terraform-managed infrastructure and Python
-                                    AWS Lambda automation. Integrated and tested a Lambda
-                                    flag selector, including deployment packaging, IAM
-                                    role configuration, and functional validation.
+                                    Contribute to NYU's OSIRIS Lab infrastructure team, 
+                                    which develops and maintains technical environments supporting 
+                                    offensive security research, CTF competitions, and hands-on security projects.
+                                    Work with cloud infrastructure, networking, automation, 
+                                    and deployment workflows using tools such as AWS, Terraform, Docker, and Kubernetes. 
+                                    Projects include infrastructure supporting the CSAW cybersecurity competition.
                                 </p>
                             </div>
                         </div>
