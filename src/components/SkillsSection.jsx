@@ -126,3 +126,71 @@ export const SkillsSection = () => {
                 <div className="flex flex-wrap justify-center gap-3 mb-12">
                     <button
                         onClick={() => setActiveCategory("all")}
+                        aria-pressed={activeCategory === "all"}
+                        className={cn(
+                            "px-5 py-2 rounded-full transition-colors duration-300 border",
+                            activeCategory === "all"
+                                ? "bg-primary text-primary-foreground"
+                                : "bg-secondary/70 text-foreground hover:bg-secondary"
+                        )}
+                    >
+                        All
+                    </button>
+                    {categories.map((category) => (
+                        <button
+                            key={category.id}
+                            onClick={() => setActiveCategory(category.id)}
+                            aria-pressed={activeCategory === category.id}
+                            className={cn(
+                                "px-5 py-2 rounded-full transition-colors duration-300 border",
+                                activeCategory === category.id
+                                    ? "bg-primary text-primary-foreground"
+                                    : "bg-secondary/70 text-foreground hover:bg-secondary"
+                            )}
+                        >
+                            {category.name}
+                        </button>
+                    ))}
+                </div>
+
+                {/* Skill Categories */}
+                <div className={cn(
+                    "grid gap-6",
+                    activeCategory === "all"
+                        ? "grid-cols-1 md:grid-cols-2"
+                        : "grid-cols-1 max-w-3xl mx-auto"
+                )}>
+                    {filteredCategories.map((category) => (
+                        <div key={category.id} className="gradient-border p-6 card-hover h-full">
+                            <div className="flex items-start gap-4 mb-5">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <category.Icon className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h3 className="font-semibold text-lg">
+                                        {category.name}
+                                    </h3>
+                                    <p className="text-sm text-muted-foreground mt-1">
+                                        {category.description}
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Skills */}
+                            <div className="flex flex-wrap gap-2">
+                                {category.skills.map((skill) => (
+                                    <span
+                                        key={skill}
+                                        className="px-3 py-1.5 text-sm font-medium border rounded-full bg-secondary/70 text-foreground"
+                                    >
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
