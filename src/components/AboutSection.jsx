@@ -112,15 +112,15 @@ export const AboutSection = () => {
                             (NYU Merit Scholarship Recipient)<br /><br />
                             B.A. Computer Science, Florida State University — <br />
                             May 2026, Magna Cum Laude<br /><br />
-                            I am a member of NYU's OSIRIS Lab, a student-run offensive
-                            security research lab focused on vulnerability research,
-                            binary exploitation, and reverse engineering. I served on
-                            the organizing staff for the 2026 CSAW CTF Qualifiers.<br /><br />
-                            My technical focus is on memory safety, fuzzing, binary
-                            exploitation, and detection engineering. I work primarily
-                            in C, C++, Python, and x86-64 assembly, with hands-on
-                            experience using GDB, pwntools, libFuzzer, and
-                            ASan/UBSan instrumentation.
+                            I am a member of NYU's OSIRIS Lab, a student-run offensive 
+                            security research lab focused on vulnerability research, binary exploitation, and reverse engineering. 
+                            Currently on the infrastructure team supporting the AWS-backed CSAW CTF environment 
+                            through Terraform and Python-based AWS Lambda automation.
+                            I also contribute to Lind through NYU's Secure Systems Lab, an open-source project 
+                            focused on secure POSIX application isolation. My first contribution involved expanding the Rust coding style guide, 
+                            with continued involvement planned across other areas of the project.
+                            My technical focus is on memory safety, fuzzing, systems security, and detection engineering. 
+                            I work primarily in C, C++, and Python, with hands-on experience using GDB, Ghidra, libFuzzer, ASan/UBSan, Linux, and security monitoring tools.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
