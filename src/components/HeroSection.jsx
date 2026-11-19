@@ -22,9 +22,8 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-3">
-                    M.S. Cybersecurity student at NYU Tandon, targeting offensive security 
-                    and red team roles. Member of NYU's OSIRIS Lab — focused on vulnerability 
-                    research, binary exploitation, and reverse engineering.
+                    M.S. Cybersecurity student at NYU Tandon, focused on vulnerability research, fuzzing, secure systems, and detection engineering. 
+                    Currently contributing to NYU's OSIRIS Lab infrastructure team and the Lind secure systems project.
                 </p>
 
                 <div className="opacity-0 animate-fade-in-3">
