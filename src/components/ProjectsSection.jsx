@@ -26,17 +26,6 @@ const projects = [
     },
     {
         id: 3,
-        title: "Tinybrowse — C++ Security Audit",
-        description: "Audited a small C++ browser as part of NYU's Computer Security coursework, identifying five vulnerabilities: a format-string flaw, integer-truncation heap overflow, use-after-free, null-pointer dereference, and unbounded parser recursion. Used GDB and AddressSanitizer to reproduce failures, trace root causes, and document technical evidence.",
-        image: null,
-        Icon: Bug,
-        tags: ["C++", "GDB", "AddressSanitizer", "Memory Safety", "Security Audit"],
-        status: "live",
-        githubUrl: null,
-        linkLabel: "Coursework project — no public repository",
-    },
-    {
-        id: 4,
         title: "Open-Source Vulnerability Research & Fuzzing",
         description: "Built a coverage-guided libFuzzer harness with ASan/UBSan instrumentation for the GGUF model-file parser of an open-source C++ machine-learning inference library. Identified and root-caused a previously unreported uncontrolled memory-allocation vulnerability (CWE-789), then filed a private coordinated-disclosure advisory. Technical details remain private pending remediation.",
         image: `${import.meta.env.BASE_URL}projects/fuzzing.png`,
@@ -46,7 +35,7 @@ const projects = [
         linkLabel: "Technical details withheld pending remediation",
     },
     {
-        id: 5,
+        id: 4,
         title: "Detection Engineering SOC Lab",
         description: "Docker-based Elasticsearch/Kibana SOC lab on WSL2 ingesting live Windows/Sysmon telemetry and 37,364 events from 278 EVTX attack samples. Developed six MITRE ATT&CK-mapped Sigma rules, converted them to ECS-aligned EQL, and evaluated them against 1.79 million public Windows baseline events. Verified query consistency through 24 EQL/DSL document-ID comparisons and published reproducible tests and documentation.",
         image: `${import.meta.env.BASE_URL}projects/soclab.png`,
@@ -56,7 +45,7 @@ const projects = [
         linkLabel: "View Detection Engineering SOC Lab on GitHub",
     },
     {
-        id: 6,
+        id: 5,
         title: "Malware Traffic Classifier",
         description: "XGBoost network intrusion classifier trained on the UNSW-NB15 dataset with a Streamlit interface for interactive classification of user-provided network traffic features. Includes logarithmic transformation, robust scaling, label encoding, and a tuned prediction threshold to handle class imbalance between benign and malicious samples.",
         image: `${import.meta.env.BASE_URL}projects/five.png`,
@@ -64,6 +53,17 @@ const projects = [
         status: "live",
         githubUrl: "https://github.com/samuelyoder/Malware-Traffic-Classifier",
         linkLabel: "View Malware Traffic Classifier on GitHub",
+    },
+    {
+        id: 6,
+        title: "Tinybrowse — C++ Security Audit",
+        description: "Audited a small C++ browser as part of NYU's Computer Security coursework, identifying five vulnerabilities: a format-string flaw, integer-truncation heap overflow, use-after-free, null-pointer dereference, and unbounded parser recursion. Used GDB and AddressSanitizer to reproduce failures, trace root causes, and document technical evidence.",
+        image: null,
+        Icon: Bug,
+        tags: ["C++", "GDB", "AddressSanitizer", "Memory Safety", "Security Audit"],
+        status: "live",
+        githubUrl: null,
+        linkLabel: "No public repository",
     },
     {
         id: 7,
