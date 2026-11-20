@@ -13,28 +13,34 @@ export const AboutSection = () => {
                         <h3 className="text-2xl font-semibold">
                             Offensive Security Researcher
                         </h3>
-
+                        
                         <p className="text-muted-foreground">
-                        I am a member of NYU's OSIRIS Lab, where I contribute
-                        to the infrastructure team developing and supporting
-                        technical environments for security research, hands-on
-                        projects, and CTF competitions.
-                        
-                        <br /><br />
-                        
-                        I also contribute to Lind through NYU's Secure Systems Lab,
-                        an open-source project focused on secure POSIX application
-                        isolation. My first merged contribution expanded the Rust
-                        coding style guide, with continued involvement planned
-                        across other areas of the project.
-                        
-                        <br /><br />
-                        
-                        My technical interests center on vulnerability research,
-                        memory safety, fuzzing, systems security, and detection
-                        engineering. I work primarily in C, C++, and Python,
-                        using tools including GDB, Ghidra, libFuzzer, ASan/UBSan,
-                        and Linux.
+                            M.S. Cybersecurity, NYU Tandon — <br />
+                            Expected May 2028<br />
+                            (NYU Merit Scholarship Recipient)<br /><br />
+                            B.A. Computer Science, Florida State University — <br />
+                            May 2026, Magna Cum Laude<br /><br />
+
+                            I am a member of NYU's OSIRIS Lab, where I contribute
+                            to the infrastructure team developing and supporting
+                            technical environments for security research, hands-on
+                            projects, and CTF competitions.
+                            
+                            <br /><br />
+                            
+                            I also contribute to Lind through NYU's Secure Systems Lab,
+                            an open-source project focused on secure POSIX application
+                            isolation. My first merged contribution expanded the Rust
+                            coding style guide, with continued involvement planned
+                            across other areas of the project.
+                            
+                            <br /><br />
+                            
+                            My technical interests center on vulnerability research,
+                            memory safety, fuzzing, systems security, and detection
+                            engineering. I work primarily in C, C++, and Python,
+                            using tools including GDB, Ghidra, libFuzzer, ASan/UBSan,
+                            and Linux.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
