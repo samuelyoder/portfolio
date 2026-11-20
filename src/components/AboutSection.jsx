@@ -69,9 +69,9 @@ export const AboutSection = () => {
                                     </h4>
                                     <p className="text-muted-foreground">
                                         Coverage-guided fuzzing, memory-safety analysis,
-                                        binary exploitation, reverse engineering, and
-                                        coordinated responsible disclosure of novel
-                                        vulnerabilities in open-source software.
+                                        binary exploitation, reverse engineering, 
+                                        and coordinated vulnerability disclosure
+                                        in open-source software.
                                     </p>
                                 </div>
                             </div>
